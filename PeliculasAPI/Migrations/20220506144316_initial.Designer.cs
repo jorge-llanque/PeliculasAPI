@@ -10,8 +10,8 @@ using PeliculasAPI;
 namespace PeliculasAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220202064238_Peliculas")]
-    partial class Peliculas
+    [Migration("20220506144316_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
